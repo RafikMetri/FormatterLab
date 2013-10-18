@@ -67,7 +67,7 @@ public class Format {
         String largestString = stringArray[0];
         for(int i = 0; i < stringArray.length; i++){
             if(stringArray[i].length() > largestString.length()){
-                largestString = stringArray[1];
+                largestString = stringArray[i];
             }
         }
         return largestString.length();
